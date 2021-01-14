@@ -9,13 +9,13 @@ It takes a port number and interval (```default is 443 and 60 seconds```) upon r
 ## Usage
 
 ```bash
-chmod +x portmonitor
+chmod +x portmonitor.sh
 
-./portmonitor <port> <interval>
+./portmonitor.sh <port> <interval>
 
 OR
 
-bash portmonitor <port> <interval>
+bash portmonitor.sh <port> <interval>
 ```
 
 You can also make it a service (systemd, etc...) to have it run at your system start time.
@@ -33,7 +33,6 @@ Anyway it should work fine on any machine that is rocking ```ss``` and ```bash``
 ## Contributing
 
 Pull requests are welcome.
-
 
 ## License
 
